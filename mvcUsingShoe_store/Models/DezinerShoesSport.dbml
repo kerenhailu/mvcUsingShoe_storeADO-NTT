@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Group" Class="DezinerShoesSportDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=laptop-0hsc4h8o;Initial Catalog=Group;Integrated Security=True;Pooling=False;MultipleActiveResultSets=True;Application Name=EntityFramework" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="GroupConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ShoesSportTable" Member="ShoesSportTables">
+    <Type Name="ShoesSportTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="model" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="size" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
